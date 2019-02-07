@@ -1,0 +1,359 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/12/2016, 9:25:55
+    Author     : agua
+*/
+.body
+{
+    font-family: FontAwesome;
+}
+
+.testimonio
+{
+   width: 80px;
+   height: 80px; 
+}
+.logo
+{
+    width: 153px;
+    height: 105px;
+}
+.cc_header
+{
+   background-color: #F7F7F7; 
+ 
+}
+#fondo input
+{
+   background-color: #1372C2;
+}
+
+/*
+.link ul,li,a 
+{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+*/
+#navegacion
+{
+    background-color: #1372C2;
+    
+    
+}
+.active a
+{
+    background-color: #C0C0C0;
+    color: #000000;
+}
+#navegacion a
+{
+    color: #ffffff; 
+    text-transform: uppercase;
+}
+.navegacion_sub a
+{
+     background-color: #1372C2;
+     color: #ffffff; 
+    text-transform: uppercase;
+    width: 250px;
+}
+.navegacion_sub a:hover
+{
+     background-color: #C0C0C0;
+     color: #000000; 
+    text-transform: uppercase;
+}
+#navegacion a:hover
+{
+    color: #000000; 
+}
+
+.separador_chico
+{
+    margin-top: 50px;
+    height: 20px;
+}
+.separador
+{
+    margin-top: 230px;
+    height: 20px;
+}
+.slideshow
+{
+    background-color: navajowhite;
+}
+.margen_abajo
+{
+    margin-bottom: 10px;
+}
+.abajo
+{
+    margin-bottom: 10px;
+    background-color: #F7F7F7;     
+}
+.abajo a
+{
+  font-size: 14px;
+  text-transform:none;  
+}
+
+.texto_slide
+{
+    color: #000000;
+}
+/*****************/
+.bg-danger {
+    padding: 1em;
+}
+
+.fb-like {
+    margin-top: -.7em;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.comment-post {
+    margin-top: 5em;
+}
+
+.icon-bar {
+  background-color: #fff;
+  color: #fff;
+}
+
+.item-comment {
+    list-style: none;
+    padding: 0;
+}
+
+.item-comment li {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 1em 0 1em;
+}
+
+.item-comment-name {
+    font-style: italic;
+}
+.item-comment p
+{
+    font-family: helvetica;
+    font-size: 12px;
+}
+/****************/
+.post {
+  border-bottom: 1px solid #999;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.post .container-buttons {
+  display: inline-block;
+  width: 100%;
+}
+
+.post .post-title a {
+  /*color: #34A419;*/
+}
+
+.post .thumb {
+  margin-right: 10px;
+  width: 30%;
+}
+
+.post .thumb img {
+  width: 100%;
+}
+
+.socialShareBlock a{
+    float: left;
+    padding: .3em;
+}
+
+.video-responsive {
+    height: 0px;
+    margin-bottom: 2em;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    
+}
+
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* -- Media Query -- */
+
+@media screen and (max-width: 768px) {
+  .post .thumb {
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar-left {
+    font-size: 1.5em !important;
+  }
+}
+/*premium*/
+.btn2 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #d7dadd;
+    border-radius: 4px;
+    color: #d7dadd !important;
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 2%;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 0.3s linear 0s;
+}
+.btn2:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #fff;
+}
+.btn2.pink2 {
+    border: 4px solid #d7dadd;
+    color: #000 !important;
+    padding: 12px 30px;
+}
+.btn2.pink2:hover {
+    background-color: transparent;
+    background-color: #00a9ea !important;
+    color:#ffffff !important;
+    text-decoration: none !important;
+}
+.panel-body2 {
+    background-color: #b7c8cc;
+    padding: 15px;
+    text-align: center;
+}
+.table-package-price2 {
+    font-weight: 700;
+}
+.table-pricing-table2 .panel-body2 h3::before {
+    border-bottom: 2px solid #f66e6e;
+    content: " ";
+}
+.table-pricing-table2 p {
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.panel-body2::before, .panel-body2::after {
+    content: " ";
+    display: table;
+}
+.table-pricing-table2 .panel-body2 h3::after {
+    border: medium none;
+    content: "";
+    display: none;
+    height: 0;
+}
+
+.col-md-42 {
+    width: 33.3333%;
+}
+.table-pricing-table2 {
+    background-color: #ffffff;
+    border: 1px solid #d6d3ce;
+    width: 100%;
+}
+.table-price-group2 {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+ol,
+.table-price-item2 {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    display: block;
+    font-size: 16px;
+    margin-bottom: -1px;
+    padding: 15px;
+    position: relative;
+}
+.panel-heading2 {
+    background-color: #00a9ea;
+    border-bottom: 1px solid transparent;
+    padding: 10px 15px;
+}
+.panel-heading2 h4 {
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 400 !important;
+}
+
+.table-buy-btn2 {
+  max-width: 160px;
+  padding: 12px 18px !important;
+  margin: auto;
+}
+.table-pricing-table2 sub, .table-pricing-table2 sup {
+    font-size: 0.6em;
+    font-weight: 500;
+}
+
+sup {
+    margin: 0;
+    padding: 0;
+    top: -0.5em;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+/*fin premium*/
+.curso_imagen
+{
+    width: 300px;
+    height: 300px;
+    
+}
+.curso_texto
+{
+    width: 500px;
+}
+.descripcion_curso
+{
+    font-size: 13px;
+    text-align: justify;
+}
+.lista_sin_vinetas
+{
+     list-style:none;
+}
+.vineta_chica
+{
+    font-size: 10px;
+}
+.izq
+{
+    text-align: left;
+}
+.centrado
+{
+    text-align: center;
+    font-weight: bold;
+}
+.justificado
+{
+    text-align: justify;
+}
